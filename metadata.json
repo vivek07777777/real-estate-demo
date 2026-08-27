@@ -1,0 +1,8 @@
+{
+  "name": "Aura Luxury Real Estate Agents",
+  "description": "Elite luxury real estate agents, bespoke private client advisory, exclusive off-market properties, and seamless property valuation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
