@@ -28,8 +28,15 @@ export interface Property {
   city: string;
   price: number;
   priceFormatted: string;
+  priceInr?: number;
+  priceCr?: string;
+  priceAed?: number;
+  priceUsd?: number;
+  reraPermitNumber?: string;
+  reraNumber?: string;
+  vastuCompliance?: string;
   status: 'For Sale' | 'Exclusive' | 'Off-Market' | 'Just Sold' | 'Under Contract';
-  category: 'Modern Villa' | 'Luxury Penthouse' | 'Architectural Estate' | 'Waterfront' | 'Historic Manor';
+  category: 'Modern Villa' | 'Luxury Penthouse' | 'Architectural Estate' | 'Waterfront' | 'Historic Manor' | 'Sea-Facing Penthouse' | 'Heritage Bungalow' | 'Golf Estate Villa' | 'Goa Coastal Villa';
   bedrooms: number;
   bathrooms: number;
   sqft: number;

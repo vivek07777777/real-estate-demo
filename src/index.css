@@ -5,25 +5,26 @@
   --font-serif: "Cormorant Garamond", Georgia, serif;
   --font-display: "Cinzel", Georgia, serif;
   
-  --color-luxury-black: #08090c;
-  --color-luxury-dark: #0e1017;
-  --color-luxury-surface: #141722;
-  --color-luxury-card: #181c28;
-  --color-luxury-border: #262c3e;
+  --color-luxury-bg: #faf8f5;
+  --color-luxury-surface: #ffffff;
+  --color-luxury-stone: #f4efe6;
+  --color-luxury-border: #eae4da;
+  --color-luxury-text: #1d1b18;
+  --color-luxury-muted: #6f6a61;
   
-  --color-champagne-gold: #c5a880;
+  --color-champagne-gold: #b89358;
   --color-champagne-light: #dfc9a8;
-  --color-champagne-dark: #9e7f56;
+  --color-champagne-dark: #8c6a34;
   
-  --color-accent-emerald: #10b981;
+  --color-accent-emerald: #0f766e;
 }
 
 /* Custom styles and smooth scroll */
 html {
   scroll-behavior: smooth;
   font-family: var(--font-sans);
-  background-color: var(--color-luxury-black);
-  color: #f1f5f9;
+  background-color: var(--color-luxury-bg);
+  color: #1d1b18;
 }
 
 h1, h2, h3 {
@@ -39,24 +40,26 @@ h1, h2, h3 {
   font-family: var(--font-serif);
 }
 
-/* Luxury card subtle glow and borders */
+/* Luxury card subtle glow and borders for light theme */
 .luxury-border {
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  border: 1px solid #eae4da;
 }
 
 .luxury-border-gold {
-  border: 1px solid rgba(197, 168, 128, 0.25);
+  border: 1px solid rgba(184, 147, 88, 0.35);
 }
 
 .luxury-card {
-  background-color: #11141e;
-  border: 1px solid rgba(255, 255, 255, 0.07);
-  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  background-color: #ffffff;
+  border: 1px solid #eae4da;
+  box-shadow: 0 4px 20px -2px rgba(29, 27, 24, 0.03);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .luxury-card:hover {
-  border-color: rgba(197, 168, 128, 0.35);
-  background-color: #151926;
+  border-color: rgba(184, 147, 88, 0.5);
+  box-shadow: 0 12px 30px -4px rgba(184, 147, 88, 0.12), 0 4px 12px -2px rgba(29, 27, 24, 0.04);
+  transform: translateY(-2px);
 }
 
 /* Custom Scrollbar */
@@ -64,13 +67,14 @@ h1, h2, h3 {
   width: 7px;
 }
 ::-webkit-scrollbar-track {
-  background: #08090c;
+  background: #faf8f5;
 }
 ::-webkit-scrollbar-thumb {
-  background: #232838;
+  background: #d8d0c2;
   border-radius: 4px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #39425a;
+  background: #b89358;
 }
+
 

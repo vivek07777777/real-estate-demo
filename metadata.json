@@ -1,6 +1,6 @@
 {
   "name": "Aura Luxury Real Estate Agents",
-  "description": "Elite luxury real estate agents, bespoke private client advisory, exclusive off-market properties, and seamless property valuation.",
+  "description": "Turnkey luxury real estate platform demo tailored for premier Indian realtors and brokerages, showcasing Lutyens' Delhi bungalows, Mumbai sea-facing penthouses, and Goa estates.",
   "requestFramePermissions": [],
   "majorCapabilities": [
     "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
