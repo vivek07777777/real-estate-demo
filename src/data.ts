@@ -1,8 +1,8 @@
 import { Agent, Property, AgencyService, ClientReview, NeighborhoodGuide, FAQItem } from './types';
 
 export const AGENCY_INFO = {
-  name: "REAL ESTATE",
-  fullName: "Aura Private Client Real Estate Advisory LLP",
+  name: "Real Estate",
+  fullName: "Real Estate Private Client Advisory LLP",
   tagline: "Ultra-Prime Residences & Private Estates • India • RERA Registered",
   demoNotice: "Customizable Realtor Demo • Designed for Top Indian Brokerages & Realtors",
   phone: "+91 98200 48800",
@@ -566,3 +566,5 @@ export const FAQS: FAQItem[] = [
     answer: "Absolutely! This platform is architected as a turnkey, ultra-luxury demo. It can be immediately customized with your agency branding, logo, local RERA registration numbers, agent team profiles, and curated property portfolio across any Indian city within 24 to 48 hours."
   }
 ];
+
+export const REVIEWS = CLIENT_REVIEWS;
